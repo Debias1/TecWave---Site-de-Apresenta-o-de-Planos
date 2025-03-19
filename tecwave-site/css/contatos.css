@@ -1,0 +1,144 @@
+#formas-contato {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.contato-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px; 
+    flex-wrap: wrap; 
+}
+
+.contato-item {
+    background-color: #fff;
+    padding: 20px;
+    width: calc(33.33% - 20px); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.contato-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contato-item p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contato-item a {
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.contato-item .whats:hover{
+    color: #25D366 ;
+    background-color: white;
+    
+}
+.contato-item .tell:hover{
+    color: blue;
+    background-color: white;
+    
+}
+.contato-item .tell{
+    color: white;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 10px;
+    
+}
+
+.social-media-contato {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
+    
+}
+
+.social-media-contato a {
+    display: flex;
+    align-items: center; 
+    font-size: 1.1rem;
+    color: #333;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.social-media-contato .insta {
+    color: white;
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #9B4DE8);
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.social-media-contato .face:hover  {
+    color: #1877F2;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+  
+}
+
+.social-media-contato i {
+    margin-right: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .contato-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+    }
+
+    .contato-item {
+        width: 90%; 
+    }
+}
+
+.social-media-contato .face{
+    padding: 5px;
+}
+
+.social-media-contato .insta:hover{
+    padding: 5px;
+    -webkit-background-clip: text; 
+    color: transparent; 
+   border-radius: 10px;
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #9B4DE8);;
+    -webkit-background-clip: text;
+   
+}
+
+.social-media-contato .face  {
+    color: white;
+    background-color: #1877F2;
+    padding: 5px;
+    border-radius: 10px;
+  
+}
+
+.contato-item .whats{
+    color: white;
+    background-color: #25D366 ;
+    padding: 5px;
+    border-radius: 10px;
+}

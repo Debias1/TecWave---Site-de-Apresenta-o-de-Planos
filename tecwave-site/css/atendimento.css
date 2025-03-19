@@ -1,0 +1,117 @@
+#atendimento {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 40px;
+    margin: 0;
+}
+
+#atendimento .title {
+    font-size: 3rem;
+    color: #FF7800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.atendimento-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.atendimento-item {
+    width: calc(50% - 15px);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.atendimento-item h3 {
+    font-size: 1.8rem;
+    color: #1D356F;
+    margin-bottom: 15px;
+}
+
+.atendimento-item p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+#atendimento .title span {
+    color: #1D356F;
+}
+
+#atendimento .testar-conexao {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+#atendimento #btn-testar-conexao {
+    display: inline-block;
+    padding: 14px 36px;
+    font-size: 1.4rem;
+    color: #fff;
+    background: linear-gradient(135deg, #FF7800, #F4A261);
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+#atendimento #btn-testar-conexao:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .atendimento-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .atendimento-item {
+        width: 90%;
+    }
+
+    .atendimento-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .atendimento-item p {
+        font-size: 1.1rem;
+    }
+
+    #atendimento .title {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 1170px){
+    body {
+ 
+     background-image: none;
+    }
+ }
+
+ #atendimento h2{
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+
+ #atendimento{
+    align-items: center;
+ }

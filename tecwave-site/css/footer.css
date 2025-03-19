@@ -1,0 +1,118 @@
+footer {
+    background-color: #fff;
+    padding: 30px 0;
+
+}
+
+#footer_items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+    
+}
+
+#copyright {
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px){
+
+    #footer_items{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.instagram {
+    background: white;
+    
+border-radius: 50%;
+}
+
+.instagram i {
+    color: #1d1d1d; 
+}
+
+.instagram:hover {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #9B4DE8);
+    
+}
+
+.instagram:hover i {
+    color: white; 
+    transition: 0.5s;
+}
+
+
+.facebook {
+    background: white;
+    border-radius: 50%;
+}
+
+.facebook i {
+    color: #1d1d1d; 
+}
+
+.facebook:hover {
+    background-color: #1877F2;
+    
+}
+
+.facebook:hover i {
+    color: white; 
+    transition: 0.5s;
+}
+
+.whatsapp {
+    background: white;
+    border-radius: 50%;
+}
+
+.whatsapp i {
+    color: #1d1d1d; 
+}
+
+.whatsapp:hover {
+    background-color:#25D366;
+    
+}
+
+.whatsapp:hover i {
+    color: white; 
+    transition: 0.5s;
+}
+
+
+#footer{
+
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+
+    border-radius: 20px 20px 0px 0px;
+}
